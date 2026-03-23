@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/Users/joshuamkchoi/Library/Mobile Documents/com~apple~CloudDocs/lob/build",
+  "command": "/usr/bin/clang++  -I\"/Users/joshuamkchoi/Library/Mobile Documents/com~apple~CloudDocs/lob/include\"  -Wall -Wextra -Wpedantic -g -std=gnu++20 -arch arm64 -o CMakeFiles/lob_engine.dir/src/main.cpp.o -c \"/Users/joshuamkchoi/Library/Mobile Documents/com~apple~CloudDocs/lob/src/main.cpp\"",
+  "file": "/Users/joshuamkchoi/Library/Mobile Documents/com~apple~CloudDocs/lob/src/main.cpp",
+  "output": "CMakeFiles/lob_engine.dir/src/main.cpp.o"
+}
+]

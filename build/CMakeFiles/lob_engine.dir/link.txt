@@ -1,0 +1,1 @@
+/usr/bin/clang++  -Wall -Wextra -Wpedantic -g -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/lob_engine.dir/src/main.cpp.o -o lob_engine
