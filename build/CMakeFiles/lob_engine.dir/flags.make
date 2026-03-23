@@ -6,7 +6,7 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I"/Users/joshuamkchoi/Library/Mobile Documents/com~apple~CloudDocs/lob/include"
 
-CXX_FLAGSarm64 =  -Wall -Wextra -Wpedantic -g -std=gnu++20 -arch arm64
+CXX_FLAGSarm64 =  -O3 -march=native -Wall -Wextra -Werror -g -std=gnu++17 -arch arm64
 
-CXX_FLAGS =  -Wall -Wextra -Wpedantic -g -std=gnu++20 -arch arm64
+CXX_FLAGS =  -O3 -march=native -Wall -Wextra -Werror -g -std=gnu++17 -arch arm64
 

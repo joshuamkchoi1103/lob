@@ -1,4 +1,10 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/lob_engine.dir/src/LimitOrderBook.cpp.o"
+  "CMakeFiles/lob_engine.dir/src/LimitOrderBook.cpp.o.d"
+  "CMakeFiles/lob_engine.dir/src/OrderPool.cpp.o"
+  "CMakeFiles/lob_engine.dir/src/OrderPool.cpp.o.d"
+  "CMakeFiles/lob_engine.dir/src/PriceLevel.cpp.o"
+  "CMakeFiles/lob_engine.dir/src/PriceLevel.cpp.o.d"
   "CMakeFiles/lob_engine.dir/src/main.cpp.o"
   "CMakeFiles/lob_engine.dir/src/main.cpp.o.d"
   "lob_engine"

@@ -129,6 +129,78 @@ lob_engine/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lob_engine.dir/build.make CMakeFiles/lob_engine.dir/build
 .PHONY : lob_engine/fast
 
+src/LimitOrderBook.o: src/LimitOrderBook.cpp.o
+.PHONY : src/LimitOrderBook.o
+
+# target to build an object file
+src/LimitOrderBook.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lob_engine.dir/build.make CMakeFiles/lob_engine.dir/src/LimitOrderBook.cpp.o
+.PHONY : src/LimitOrderBook.cpp.o
+
+src/LimitOrderBook.i: src/LimitOrderBook.cpp.i
+.PHONY : src/LimitOrderBook.i
+
+# target to preprocess a source file
+src/LimitOrderBook.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lob_engine.dir/build.make CMakeFiles/lob_engine.dir/src/LimitOrderBook.cpp.i
+.PHONY : src/LimitOrderBook.cpp.i
+
+src/LimitOrderBook.s: src/LimitOrderBook.cpp.s
+.PHONY : src/LimitOrderBook.s
+
+# target to generate assembly for a file
+src/LimitOrderBook.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lob_engine.dir/build.make CMakeFiles/lob_engine.dir/src/LimitOrderBook.cpp.s
+.PHONY : src/LimitOrderBook.cpp.s
+
+src/OrderPool.o: src/OrderPool.cpp.o
+.PHONY : src/OrderPool.o
+
+# target to build an object file
+src/OrderPool.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lob_engine.dir/build.make CMakeFiles/lob_engine.dir/src/OrderPool.cpp.o
+.PHONY : src/OrderPool.cpp.o
+
+src/OrderPool.i: src/OrderPool.cpp.i
+.PHONY : src/OrderPool.i
+
+# target to preprocess a source file
+src/OrderPool.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lob_engine.dir/build.make CMakeFiles/lob_engine.dir/src/OrderPool.cpp.i
+.PHONY : src/OrderPool.cpp.i
+
+src/OrderPool.s: src/OrderPool.cpp.s
+.PHONY : src/OrderPool.s
+
+# target to generate assembly for a file
+src/OrderPool.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lob_engine.dir/build.make CMakeFiles/lob_engine.dir/src/OrderPool.cpp.s
+.PHONY : src/OrderPool.cpp.s
+
+src/PriceLevel.o: src/PriceLevel.cpp.o
+.PHONY : src/PriceLevel.o
+
+# target to build an object file
+src/PriceLevel.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lob_engine.dir/build.make CMakeFiles/lob_engine.dir/src/PriceLevel.cpp.o
+.PHONY : src/PriceLevel.cpp.o
+
+src/PriceLevel.i: src/PriceLevel.cpp.i
+.PHONY : src/PriceLevel.i
+
+# target to preprocess a source file
+src/PriceLevel.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lob_engine.dir/build.make CMakeFiles/lob_engine.dir/src/PriceLevel.cpp.i
+.PHONY : src/PriceLevel.cpp.i
+
+src/PriceLevel.s: src/PriceLevel.cpp.s
+.PHONY : src/PriceLevel.s
+
+# target to generate assembly for a file
+src/PriceLevel.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lob_engine.dir/build.make CMakeFiles/lob_engine.dir/src/PriceLevel.cpp.s
+.PHONY : src/PriceLevel.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -162,6 +234,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... lob_engine"
+	@echo "... src/LimitOrderBook.o"
+	@echo "... src/LimitOrderBook.i"
+	@echo "... src/LimitOrderBook.s"
+	@echo "... src/OrderPool.o"
+	@echo "... src/OrderPool.i"
+	@echo "... src/OrderPool.s"
+	@echo "... src/PriceLevel.o"
+	@echo "... src/PriceLevel.i"
+	@echo "... src/PriceLevel.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

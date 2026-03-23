@@ -155,10 +155,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "CXX compiler"
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "STRING",
+			"type" : "FILEPATH",
 			"value" : "/usr/bin/clang++"
 		},
 		{
@@ -251,10 +251,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "C compiler"
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "STRING",
+			"type" : "FILEPATH",
 			"value" : "/usr/bin/clang"
 		},
 		{
@@ -859,7 +859,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "LimitOrderBook"
+			"value" : "lob_engine"
 		},
 		{
 			"name" : "CMAKE_PROJECT_SPDX_LICENSE",
@@ -883,7 +883,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "1.0"
+			"value" : "2.0"
 		},
 		{
 			"name" : "CMAKE_PROJECT_VERSION_MAJOR",
@@ -895,7 +895,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "1"
+			"value" : "2"
 		},
 		{
 			"name" : "CMAKE_PROJECT_VERSION_MINOR",
@@ -1255,6 +1255,42 @@
 		},
 		{
 			"name" : "LimitOrderBook_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/Users/joshuamkchoi/Library/Mobile Documents/com~apple~CloudDocs/lob"
+		},
+		{
+			"name" : "lob_engine_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/Users/joshuamkchoi/Library/Mobile Documents/com~apple~CloudDocs/lob/build"
+		},
+		{
+			"name" : "lob_engine_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "lob_engine_SOURCE_DIR",
 			"properties" : 
 			[
 				{

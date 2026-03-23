@@ -1,1 +1,1 @@
-/usr/bin/clang++  -Wall -Wextra -Wpedantic -g -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/lob_engine.dir/src/main.cpp.o -o lob_engine
+/usr/bin/clang++  -O3 -march=native -Wall -Wextra -Werror -g -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/lob_engine.dir/src/PriceLevel.cpp.o CMakeFiles/lob_engine.dir/src/OrderPool.cpp.o CMakeFiles/lob_engine.dir/src/LimitOrderBook.cpp.o CMakeFiles/lob_engine.dir/src/main.cpp.o -o lob_engine

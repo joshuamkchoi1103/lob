@@ -1,7 +1,25 @@
 [
 {
   "directory": "/Users/joshuamkchoi/Library/Mobile Documents/com~apple~CloudDocs/lob/build",
-  "command": "/usr/bin/clang++  -I\"/Users/joshuamkchoi/Library/Mobile Documents/com~apple~CloudDocs/lob/include\"  -Wall -Wextra -Wpedantic -g -std=gnu++20 -arch arm64 -o CMakeFiles/lob_engine.dir/src/main.cpp.o -c \"/Users/joshuamkchoi/Library/Mobile Documents/com~apple~CloudDocs/lob/src/main.cpp\"",
+  "command": "/usr/bin/clang++  -I\"/Users/joshuamkchoi/Library/Mobile Documents/com~apple~CloudDocs/lob/include\"  -O3 -march=native -Wall -Wextra -Werror -g -std=gnu++17 -arch arm64 -o CMakeFiles/lob_engine.dir/src/PriceLevel.cpp.o -c \"/Users/joshuamkchoi/Library/Mobile Documents/com~apple~CloudDocs/lob/src/PriceLevel.cpp\"",
+  "file": "/Users/joshuamkchoi/Library/Mobile Documents/com~apple~CloudDocs/lob/src/PriceLevel.cpp",
+  "output": "CMakeFiles/lob_engine.dir/src/PriceLevel.cpp.o"
+},
+{
+  "directory": "/Users/joshuamkchoi/Library/Mobile Documents/com~apple~CloudDocs/lob/build",
+  "command": "/usr/bin/clang++  -I\"/Users/joshuamkchoi/Library/Mobile Documents/com~apple~CloudDocs/lob/include\"  -O3 -march=native -Wall -Wextra -Werror -g -std=gnu++17 -arch arm64 -o CMakeFiles/lob_engine.dir/src/OrderPool.cpp.o -c \"/Users/joshuamkchoi/Library/Mobile Documents/com~apple~CloudDocs/lob/src/OrderPool.cpp\"",
+  "file": "/Users/joshuamkchoi/Library/Mobile Documents/com~apple~CloudDocs/lob/src/OrderPool.cpp",
+  "output": "CMakeFiles/lob_engine.dir/src/OrderPool.cpp.o"
+},
+{
+  "directory": "/Users/joshuamkchoi/Library/Mobile Documents/com~apple~CloudDocs/lob/build",
+  "command": "/usr/bin/clang++  -I\"/Users/joshuamkchoi/Library/Mobile Documents/com~apple~CloudDocs/lob/include\"  -O3 -march=native -Wall -Wextra -Werror -g -std=gnu++17 -arch arm64 -o CMakeFiles/lob_engine.dir/src/LimitOrderBook.cpp.o -c \"/Users/joshuamkchoi/Library/Mobile Documents/com~apple~CloudDocs/lob/src/LimitOrderBook.cpp\"",
+  "file": "/Users/joshuamkchoi/Library/Mobile Documents/com~apple~CloudDocs/lob/src/LimitOrderBook.cpp",
+  "output": "CMakeFiles/lob_engine.dir/src/LimitOrderBook.cpp.o"
+},
+{
+  "directory": "/Users/joshuamkchoi/Library/Mobile Documents/com~apple~CloudDocs/lob/build",
+  "command": "/usr/bin/clang++  -I\"/Users/joshuamkchoi/Library/Mobile Documents/com~apple~CloudDocs/lob/include\"  -O3 -march=native -Wall -Wextra -Werror -g -std=gnu++17 -arch arm64 -o CMakeFiles/lob_engine.dir/src/main.cpp.o -c \"/Users/joshuamkchoi/Library/Mobile Documents/com~apple~CloudDocs/lob/src/main.cpp\"",
   "file": "/Users/joshuamkchoi/Library/Mobile Documents/com~apple~CloudDocs/lob/src/main.cpp",
   "output": "CMakeFiles/lob_engine.dir/src/main.cpp.o"
 }

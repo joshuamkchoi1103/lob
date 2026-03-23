@@ -72,10 +72,52 @@ include CMakeFiles/lob_engine.dir/flags.make
 CMakeFiles/lob_engine.dir/codegen:
 .PHONY : CMakeFiles/lob_engine.dir/codegen
 
+CMakeFiles/lob_engine.dir/src/PriceLevel.cpp.o: CMakeFiles/lob_engine.dir/flags.make
+CMakeFiles/lob_engine.dir/src/PriceLevel.cpp.o: /Users/joshuamkchoi/Library/Mobile\ Documents/com~apple~CloudDocs/lob/src/PriceLevel.cpp
+CMakeFiles/lob_engine.dir/src/PriceLevel.cpp.o: CMakeFiles/lob_engine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/joshuamkchoi/Library/Mobile Documents/com~apple~CloudDocs/lob/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lob_engine.dir/src/PriceLevel.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lob_engine.dir/src/PriceLevel.cpp.o -MF CMakeFiles/lob_engine.dir/src/PriceLevel.cpp.o.d -o CMakeFiles/lob_engine.dir/src/PriceLevel.cpp.o -c "/Users/joshuamkchoi/Library/Mobile Documents/com~apple~CloudDocs/lob/src/PriceLevel.cpp"
+
+CMakeFiles/lob_engine.dir/src/PriceLevel.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lob_engine.dir/src/PriceLevel.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/joshuamkchoi/Library/Mobile Documents/com~apple~CloudDocs/lob/src/PriceLevel.cpp" > CMakeFiles/lob_engine.dir/src/PriceLevel.cpp.i
+
+CMakeFiles/lob_engine.dir/src/PriceLevel.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lob_engine.dir/src/PriceLevel.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/joshuamkchoi/Library/Mobile Documents/com~apple~CloudDocs/lob/src/PriceLevel.cpp" -o CMakeFiles/lob_engine.dir/src/PriceLevel.cpp.s
+
+CMakeFiles/lob_engine.dir/src/OrderPool.cpp.o: CMakeFiles/lob_engine.dir/flags.make
+CMakeFiles/lob_engine.dir/src/OrderPool.cpp.o: /Users/joshuamkchoi/Library/Mobile\ Documents/com~apple~CloudDocs/lob/src/OrderPool.cpp
+CMakeFiles/lob_engine.dir/src/OrderPool.cpp.o: CMakeFiles/lob_engine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/joshuamkchoi/Library/Mobile Documents/com~apple~CloudDocs/lob/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/lob_engine.dir/src/OrderPool.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lob_engine.dir/src/OrderPool.cpp.o -MF CMakeFiles/lob_engine.dir/src/OrderPool.cpp.o.d -o CMakeFiles/lob_engine.dir/src/OrderPool.cpp.o -c "/Users/joshuamkchoi/Library/Mobile Documents/com~apple~CloudDocs/lob/src/OrderPool.cpp"
+
+CMakeFiles/lob_engine.dir/src/OrderPool.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lob_engine.dir/src/OrderPool.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/joshuamkchoi/Library/Mobile Documents/com~apple~CloudDocs/lob/src/OrderPool.cpp" > CMakeFiles/lob_engine.dir/src/OrderPool.cpp.i
+
+CMakeFiles/lob_engine.dir/src/OrderPool.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lob_engine.dir/src/OrderPool.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/joshuamkchoi/Library/Mobile Documents/com~apple~CloudDocs/lob/src/OrderPool.cpp" -o CMakeFiles/lob_engine.dir/src/OrderPool.cpp.s
+
+CMakeFiles/lob_engine.dir/src/LimitOrderBook.cpp.o: CMakeFiles/lob_engine.dir/flags.make
+CMakeFiles/lob_engine.dir/src/LimitOrderBook.cpp.o: /Users/joshuamkchoi/Library/Mobile\ Documents/com~apple~CloudDocs/lob/src/LimitOrderBook.cpp
+CMakeFiles/lob_engine.dir/src/LimitOrderBook.cpp.o: CMakeFiles/lob_engine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/joshuamkchoi/Library/Mobile Documents/com~apple~CloudDocs/lob/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/lob_engine.dir/src/LimitOrderBook.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lob_engine.dir/src/LimitOrderBook.cpp.o -MF CMakeFiles/lob_engine.dir/src/LimitOrderBook.cpp.o.d -o CMakeFiles/lob_engine.dir/src/LimitOrderBook.cpp.o -c "/Users/joshuamkchoi/Library/Mobile Documents/com~apple~CloudDocs/lob/src/LimitOrderBook.cpp"
+
+CMakeFiles/lob_engine.dir/src/LimitOrderBook.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lob_engine.dir/src/LimitOrderBook.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/joshuamkchoi/Library/Mobile Documents/com~apple~CloudDocs/lob/src/LimitOrderBook.cpp" > CMakeFiles/lob_engine.dir/src/LimitOrderBook.cpp.i
+
+CMakeFiles/lob_engine.dir/src/LimitOrderBook.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lob_engine.dir/src/LimitOrderBook.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/joshuamkchoi/Library/Mobile Documents/com~apple~CloudDocs/lob/src/LimitOrderBook.cpp" -o CMakeFiles/lob_engine.dir/src/LimitOrderBook.cpp.s
+
 CMakeFiles/lob_engine.dir/src/main.cpp.o: CMakeFiles/lob_engine.dir/flags.make
 CMakeFiles/lob_engine.dir/src/main.cpp.o: /Users/joshuamkchoi/Library/Mobile\ Documents/com~apple~CloudDocs/lob/src/main.cpp
 CMakeFiles/lob_engine.dir/src/main.cpp.o: CMakeFiles/lob_engine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/joshuamkchoi/Library/Mobile Documents/com~apple~CloudDocs/lob/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lob_engine.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/joshuamkchoi/Library/Mobile Documents/com~apple~CloudDocs/lob/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/lob_engine.dir/src/main.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lob_engine.dir/src/main.cpp.o -MF CMakeFiles/lob_engine.dir/src/main.cpp.o.d -o CMakeFiles/lob_engine.dir/src/main.cpp.o -c "/Users/joshuamkchoi/Library/Mobile Documents/com~apple~CloudDocs/lob/src/main.cpp"
 
 CMakeFiles/lob_engine.dir/src/main.cpp.i: cmake_force
@@ -88,15 +130,21 @@ CMakeFiles/lob_engine.dir/src/main.cpp.s: cmake_force
 
 # Object files for target lob_engine
 lob_engine_OBJECTS = \
+"CMakeFiles/lob_engine.dir/src/PriceLevel.cpp.o" \
+"CMakeFiles/lob_engine.dir/src/OrderPool.cpp.o" \
+"CMakeFiles/lob_engine.dir/src/LimitOrderBook.cpp.o" \
 "CMakeFiles/lob_engine.dir/src/main.cpp.o"
 
 # External object files for target lob_engine
 lob_engine_EXTERNAL_OBJECTS =
 
+lob_engine: CMakeFiles/lob_engine.dir/src/PriceLevel.cpp.o
+lob_engine: CMakeFiles/lob_engine.dir/src/OrderPool.cpp.o
+lob_engine: CMakeFiles/lob_engine.dir/src/LimitOrderBook.cpp.o
 lob_engine: CMakeFiles/lob_engine.dir/src/main.cpp.o
 lob_engine: CMakeFiles/lob_engine.dir/build.make
 lob_engine: CMakeFiles/lob_engine.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/joshuamkchoi/Library/Mobile Documents/com~apple~CloudDocs/lob/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable lob_engine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/joshuamkchoi/Library/Mobile Documents/com~apple~CloudDocs/lob/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable lob_engine"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lob_engine.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
